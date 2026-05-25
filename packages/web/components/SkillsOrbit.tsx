@@ -12,7 +12,7 @@ interface Skill {
 
 export default function SkillsOrbit() {
   const skills: Skill[] = (skillsData as any)?.default || skillsData || [];
-  const categories = Array.from(new Set(skills.map(s => s.category))).filter(Boolean);
+  const categories = Array.from(new Set(skills.map((s: Skill) => s.category))).filter(Boolean);
 
   const categoryColors: Record<string, string> = {
     'ML / AI Frameworks': 'text-accent1',
@@ -38,7 +38,7 @@ export default function SkillsOrbit() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 lg:gap-x-20 gap-y-12 md:gap-y-16">
-          {categories.map((category, catIndex) => (
+          {categories.map((category: string) => (
             <div key={category} className="space-y-6 md:space-y-8">
               <h3 className={`${categoryColors[category] || 'text-accent1'} font-display font-bold text-base md:text-lg uppercase tracking-widest border-b border-white/5 pb-4`}>
                 {category}
@@ -47,8 +47,8 @@ export default function SkillsOrbit() {
               <div className="space-y-8">
                 <div className="space-y-6">
                   {skills
-                    .filter(s => s.category === category && !s.isChip)
-                    .map((skill) => (
+                    .filter((s: Skill) => s.category === category && !s.isChip)
+                    .map((skill: Skill) => (
                       <div key={skill.name} className="group">
                         <div className="flex justify-between items-end mb-2">
                           <span className="text-xs md:text-sm font-body text-text group-hover:text-accent1 transition-colors">
@@ -73,8 +73,8 @@ export default function SkillsOrbit() {
 
                 <div className="flex flex-wrap gap-2">
                   {skills
-                    .filter(s => s.category === category && s.isChip)
-                    .map((skill) => (
+                    .filter((s: Skill) => s.category === category && s.isChip)
+                    .map((skill: Skill) => (
                       <span 
                         key={skill.name}
                         className="px-3 py-1.5 bg-surface border border-white/5 rounded-lg text-[10px] font-body text-text/60 hover:text-accent3 hover:border-accent3/30 transition-all cursor-default"
