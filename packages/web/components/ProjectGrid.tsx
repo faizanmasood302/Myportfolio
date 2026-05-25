@@ -3,7 +3,7 @@
 import ProjectCard from './ProjectCard';
 import Reveal from './Reveal';
 import projectsData from '../data/projects.json';
-import { Project } from '../../cli/src/schemas/project';
+import { Project } from '../types/project';
 
 export default function ProjectGrid() {
   const projects = projectsData as Project[];

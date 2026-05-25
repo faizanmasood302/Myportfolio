@@ -5,6 +5,7 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "npm run build -w packages/web",
     "dev:web": "npm run dev -w packages/web",
     "build:web": "npm run build -w packages/web",
     "build:cli": "npm run build -w packages/cli",

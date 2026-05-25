@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Project } from '../../cli/src/schemas/project';
+import { Project } from '../types/project';
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
