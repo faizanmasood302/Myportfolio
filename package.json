@@ -1,0 +1,19 @@
+{
+  "name": "faizan-portfolio-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w packages/web",
+    "build:web": "npm run build -w packages/web",
+    "build:cli": "npm run build -w packages/cli",
+    "lint": "npm run lint -ws",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "prettier": "^3.0.0",
+    "eslint": "^8.0.0"
+  }
+}

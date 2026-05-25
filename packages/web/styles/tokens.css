@@ -1,0 +1,14 @@
+:root {
+  --bg: #0a0a0f;       /* deep void */
+  --surface: #12121a;  /* raised cards */
+  --accent1: #6ee7b7;  /* electric mint */
+  --accent2: #a78bfa;  /* violet pulse */
+  --accent3: #fb923c;  /* amber spark */
+  --text: #ffffff;     /* high-contrast white */
+  --muted: #a1a1aa;    /* brighter muted gray for readability */
+
+  /* Typography tokens */
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Mono', monospace;
+  --font-accent: 'Fraunces', serif;
+}

@@ -1,0 +1,25 @@
+[
+  { "name": "PyTorch", "level": 82, "category": "ML / AI Frameworks" },
+  { "name": "TensorFlow / Keras", "level": 85, "category": "ML / AI Frameworks" },
+  { "name": "scikit-learn", "level": 88, "category": "ML / AI Frameworks" },
+  { "name": "Hugging Face Transformers", "level": 75, "category": "ML / AI Frameworks" },
+  { "name": "RAG Pipelines", "level": 78, "category": "ML / AI Frameworks" },
+  
+  { "name": "Python", "level": 92, "category": "Data Science" },
+  { "name": "NumPy / Pandas", "level": 90, "category": "Data Science" },
+  { "name": "Matplotlib / Seaborn", "level": 85, "category": "Data Science" },
+  { "name": "XGBoost", "level": 78, "category": "Data Science" },
+  { "name": "SQL", "level": 72, "category": "Data Science" },
+
+  { "name": "Text Classification / NER", "level": 80, "category": "NLP & Computer Vision" },
+  { "name": "CNN Architecture Design", "level": 82, "category": "NLP & Computer Vision" },
+  { "name": "Image Preprocessing", "level": 85, "category": "NLP & Computer Vision" },
+  { "name": "Model Evaluation (F1, AUC)", "level": 87, "category": "NLP & Computer Vision" },
+
+  { "name": "Next.js / TypeScript", "level": 75, "category": "Web & Tools" },
+  { "name": "Streamlit", "level": 88, "category": "Web & Tools" },
+  { "name": "Git & GitHub", "category": "Web & Tools", "isChip": true },
+  { "name": "Linux", "category": "Web & Tools", "isChip": true },
+  { "name": "Tailwind CSS", "category": "Web & Tools", "isChip": true },
+  { "name": "BetterAuth", "category": "Web & Tools", "isChip": true }
+]

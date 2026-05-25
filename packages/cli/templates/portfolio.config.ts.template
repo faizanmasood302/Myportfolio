@@ -1,0 +1,12 @@
+export const config = {
+  personalInfo: {
+    name: "Muhammad Faizan",
+    role: "AI / Machine Learning Engineer",
+    email: "Faizanmasood009@gmail.com",
+    location: "Karachi, Pakistan",
+    github: "https://github.com/faizanmasood302",
+  },
+  theme: {
+    palette: "dark-cyber",
+  }
+};

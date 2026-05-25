@@ -1,0 +1,101 @@
+[
+  {
+    "id": "vegetables-health",
+    "title": "Vegetables Health Detection",
+    "description": "An AI-powered computer vision system designed to analyze and detect the health status of various vegetables using CNN classification models.",
+    "techStack": ["Python", "TensorFlow", "OpenCV", "CNN"],
+    "links": {
+      "repo": "https://github.com/faizanmasood302/VEGETABLES_HEALTH_DETECTION"
+    },
+    "image": "https://images.unsplash.com/photo-1525498128493-380d1990a112?q=80&w=800&auto=format&fit=crop",
+    "category": "Computer Vision"
+  },
+  {
+    "id": "mall-segmentation",
+    "title": "Mall Customer Segmentation",
+    "description": "Unsupervised learning project using K-Means and DBSCAN clustering to segment customers based on behavioral and demographic data.",
+    "techStack": ["Python", "scikit-learn", "Clustering", "Matplotlib"],
+    "links": {
+      "repo": "https://github.com/faizanmasood302/MALL_CUSTOMER_SEGMANTATION_KMEANS_DBSCAN"
+    },
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
+    "category": "Data Science"
+  },
+  {
+    "id": "luxebrew",
+    "title": "LuxeBrew Coffee",
+    "description": "A high-end, aesthetic e-commerce experience for a premium coffee brand, featuring smooth transitions and custom UI components.",
+    "techStack": ["JavaScript", "CSS3", "Responsive Design", "Animation"],
+    "links": {
+      "repo": "https://github.com/faizanmasood302/LUXEBREW"
+    },
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800&auto=format&fit=crop",
+    "category": "Web Dev"
+  },
+  {
+    "id": "music-genre",
+    "title": "Music Genre Classification",
+    "description": "Audio analysis system that classifies music tracks into genres using signal processing and deep learning features.",
+    "techStack": ["Python", "Librosa", "Deep Learning", "Audio Analysis"],
+    "links": {
+      "repo": "https://github.com/faizanmasood302/MUSIC_GENRE_CLASSIFICATION"
+    },
+    "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=800&auto=format&fit=crop",
+    "category": "AI / Deep Learning"
+  },
+  {
+    "id": "orbit-ui",
+    "title": "ORBIT Interface",
+    "description": "A sophisticated TypeScript-based UI system focusing on circular layouts and complex motion patterns.",
+    "techStack": ["TypeScript", "Tailwind CSS", "Framer Motion"],
+    "links": {
+      "repo": "https://github.com/faizanmasood302/ORBIT"
+    },
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
+    "category": "Frontend Architecture"
+  },
+  {
+    "id": "dynamic-resume",
+    "title": "Dynamic Plus Resume",
+    "description": "A full-featured, editable resume builder with real-time preview and export capabilities built for modern professionals.",
+    "techStack": ["TypeScript", "React", "State Management", "PDF Export"],
+    "links": {
+      "repo": "https://github.com/faizanmasood302/DYNAMICPLUSEDITABLERESUME"
+    },
+    "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=800&auto=format&fit=crop",
+    "category": "Application Dev"
+  },
+  {
+    "id": "movie-recommendation",
+    "title": "Movie Recommendation System",
+    "description": "Personalized recommendation engine built using similarity measures to suggest movies based on user preferences.",
+    "techStack": ["Python", "Pandas", "NLP", "Scikit-Learn"],
+    "links": {
+      "repo": "https://github.com/faizanmasood302/MOVIE_RECOMMENDATION_SYSTEM"
+    },
+    "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=800&auto=format&fit=crop",
+    "category": "Recommender Systems"
+  },
+  {
+    "id": "loan-approval",
+    "title": "Loan Approval Prediction",
+    "description": "Predictive modeling application that evaluates loan eligibility using supervised learning and gradient boosting.",
+    "techStack": ["Python", "XGBoost", "Data Preprocessing"],
+    "links": {
+      "repo": "https://github.com/faizanmasood302/LOAN_APPROVAL_APP_ML"
+    },
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=800&auto=format&fit=crop",
+    "category": "Machine Learning"
+  },
+  {
+    "id": "food-platform",
+    "title": "Q-Commerce Food App",
+    "description": "A lightning-fast food delivery frontend optimized for sub-2 second page loads and mobile-first interactions.",
+    "techStack": ["Next.js", "Tailwind CSS", "SEO Optimization"],
+    "links": {
+      "repo": "https://github.com/faizanmasood302/FOODAPP"
+    },
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop",
+    "category": "Web Dev"
+  }
+]
